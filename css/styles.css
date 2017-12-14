@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  font-family: serif;
+  font-size: 20px;
+  background-color: #111111;
+}
+input {
+  width: 20%;
+}
+
+#result {
+  display: none;
+}
+ul {
+  color: red;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.question {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #111111;
+  border: 3px solid red;
+  padding-top: 10%;
+  box-shadow: 3px 20px 10px red;
+}
+label {
+  background-color: #111111;
+  color: red;
+  width: 50%;
+  font-family: sans-serif;
+}
+
+img{
+  width: 300px;
+  height: 500px;
+}
+input {
+  text-align: center;
+  background-color: #111111;
+  font-size: 15;
+}
+#number, #name{
+  background-color: #111111;
+  color: red;
+  font-size: 15px;
+}
+/*#result {
+  width: 200px;
+}*/
+#self {
+  height: 100px;
+  width: 100px;
+}
+.contain {
+  color: red;
+}
