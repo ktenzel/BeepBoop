@@ -25,6 +25,12 @@ var counter = function(input, name) {
   }
   }
 }
+var listArray = function() {
+  for(i = 0; i < array.length; i++) {
+    $("#result-list").append("<li>" + array[i] + "</li>");
+  }
+}
+
 
 //frontend
 $(document).ready(function() {
@@ -35,11 +41,7 @@ $(document).ready(function() {
     debugger;
       $("#result").show();
 
-      var listArray = function() {
-        for(i = 0; i < array.length; i++) {
-          $("#result-list").append("<li>" + array[i] + "</li>");
-        }
-    }
+
 
   });
 });
